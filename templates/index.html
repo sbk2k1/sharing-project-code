@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Prediction</title>
+    <link rel="stylesheet" href="../static/styles.css" type="text/css">
+</head>
+<body>
+    <h1>Loan Prediction</h1>
+    <form id="predictionForm" action="/predict" method="post">
+        <!-- <label for="gender">Gender (0/1):</label>
+        <input type="number" name="gender" required min="0" max="1"><br> -->
+
+        <!-- <label for="married">Married (0/1):</label>
+        <input type="number" name="married" required min="0" max="1"><br> -->
+
+        <label for="dependents">Dependents (0/1/2/3+):</label>
+        <input type="number" name="dependents" required min="0" max="3"><br>
+
+        <!-- <label for="education">Education (0/1):</label>
+        <input type="number" name="education" required min="0" max="1"><br> -->
+
+        <!-- <label for="selfEmployed">Self Employed (0/1):</label>
+        <input type="number" name="selfEmployed" required min="0" max="1"><br> -->
+
+        <label for="applicantIncome">Applicant Income:</label>
+        <input type="number" name="applicantIncome" required><br>
+
+        <label for="coapplicantIncome">Coapplicant Income:</label>
+        <input type="number" name="coapplicantIncome" required><br>
+
+        <label for="loanAmount">Loan Amount:</label>
+        <input type="number" name="loanAmount" required><br>
+
+        <label for="loanAmountTerm">Loan Amount Term:</label>
+        <input type="number" name="loanAmountTerm" required><br>
+
+        <label for="creditHistory">Credit History (0/1):</label>
+        <input type="number" name="creditHistory" required min="0" max="1"><br>
+
+        <!-- <label for="propertyArea">Property Area (0/1/2):</label>
+        <input type="number" name="propertyArea" required min="0" max="2"><br> -->
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
