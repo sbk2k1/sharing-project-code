@@ -1,4 +1,4 @@
-# Steps to setup the project
+# Installation guide
 
 ## 1. Make GitHub account
 
