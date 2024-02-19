@@ -2,10 +2,8 @@
 
 ## 1. Make GitHub account
 
-## 2. (Optional) Follow github.com/sbk2k1 (me)
+## 2. Install git
 
-## 3. Install git
+## 3. Install python libraries for deep learning - tensorflow, keras, numpy, pandas, matplotlib, seaborn
 
-## 4. Install python libraries for deep learning - tensorflow, keras, numpy, pandas, matplotlib, seaborn
-
-## 5. get data
+## 4. get data
